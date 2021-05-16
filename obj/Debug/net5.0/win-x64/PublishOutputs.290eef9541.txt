@@ -1,2 +1,0 @@
-D:\Programming\NEA2021\bin\release\NEA2021.pdb
-D:\Programming\NEA2021\bin\release\NEA2021.exe
