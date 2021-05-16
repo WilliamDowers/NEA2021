@@ -211,3 +211,9 @@ Press Enter to return to menu...
 ## Potential Improvements 
 * The design pattern used to display the currently selected option from the menu updates the entire console upon user input. This results in a momentary clear console. This could be replaced with code that simply redraws the console on the lines that need to be changed - the currently selected line, which should be deselected, and the line to be selected, which should be highlighted.
 * Currently, the airport data and plane data parsed form `Airports.csv` and `Planes.csv` is entered into `Airports`, of type `List<Airport>`, and `Planes`, of type `List<Planes>`. This is heap-allocated and therefore causes some inefficiences. This could be improved by using arrays of type `Airport` and `Plane` that are declared globally with lengths set to the number of lines in `Airports.csv` and `Planes.csv`. These would be populated in `GenerateAirports()` and `GeneratePlanes()`.
+
+## Building and running
+* The user must have the .NET framework installed.
+* In a terminal in the project directory, run:
+`dotnet build`
+* Then run NEA2020.exe located in /bin/.
