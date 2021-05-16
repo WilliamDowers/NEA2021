@@ -1,0 +1,5 @@
+D:\Programming\NEA2021\bin\Debug\net5.0\publish\NEA2021.exe
+D:\Programming\NEA2021\bin\Debug\net5.0\publish\NEA2021.dll
+D:\Programming\NEA2021\bin\Debug\net5.0\publish\NEA2021.deps.json
+D:\Programming\NEA2021\bin\Debug\net5.0\publish\NEA2021.runtimeconfig.json
+D:\Programming\NEA2021\bin\Debug\net5.0\publish\NEA2021.pdb
