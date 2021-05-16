@@ -67,7 +67,7 @@ namespace NEA2020
 
         static void GenerateAirports() // Populate Airports with data from Airports.csv
         {
-            string[] seperatedAirportsText = File.ReadAllText(@"Airports.csv").Split('\n');
+            string[] seperatedAirportsText = File.ReadAllText(@"../../../Airports.csv").Split('\n');
             foreach (var seperatedAirport in seperatedAirportsText)
             {
                 string[] tempAirport = seperatedAirport.Split(',');
@@ -77,7 +77,7 @@ namespace NEA2020
 
         static void GeneratePlanes() // Populate Planes with data from Planes.csv 
         {
-            string[] seperatedPlanesText = File.ReadAllText(@"Planes.csv").Split('\n');
+            string[] seperatedPlanesText = File.ReadAllText(@"../../../Planes.csv").Split('\n');
             foreach (var seperatedPlane in seperatedPlanesText)
             {
                 string[] tempPlane = seperatedPlane.Split(',');
