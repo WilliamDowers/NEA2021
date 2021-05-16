@@ -215,5 +215,7 @@ Press Enter to return to menu...
 ## Building and running
 * The user must have the .NET framework installed.
 * In a terminal in the project directory, run:
->dotnet build
+```cmd
+dotnet build
+```
 * Then run NEA2020.exe located in /bin/.
